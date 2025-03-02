@@ -1,0 +1,27 @@
+<button class="btn btn-primary" (click)="goToAdmin()">Admin</button>
+<div class="row">
+    <div class="col-6">
+        Interpolution 
+        <p>FirstName : {{firstName}}</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-6">
+        Property binding
+        <input type="text" [placeholder]="myPlaceholder" name="" id="">
+    </div>
+</div>
+<div class="row">
+    <div class="col-6">
+        Even binding
+        <button class="btn btn-primary" (click)="show()">Click me</button>
+    </div>
+</div>
+
+<div class="row">
+    2 way binding : it will 
+    <div class="col-6">
+        <input type="text" [(ngModel)]="firstName">
+    </div>
+</div>

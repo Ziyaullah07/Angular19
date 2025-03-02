@@ -1,0 +1,25 @@
+<div class="row">
+    <div class="col-6">
+        <div *ngFor="let city of cityList">
+        <span> {{city}} </span>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-6">
+        <table class="table table-bordered">
+            <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>City</th>
+            </tr>
+            <tr *ngFor="let emp of employeArray; let srno = index">
+                <td>{{srno}}</td>
+                <td>{{emp.name}}</td>
+                <td>{{emp.city}}</td>
+                <td>{{emp.ContactNo}}</td>
+            </tr>
+        </table>
+
+    </div>
+</div>
