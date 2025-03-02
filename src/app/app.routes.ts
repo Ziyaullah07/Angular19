@@ -6,6 +6,7 @@ import { DirectiveComponent } from './components/directive/directive.component';
 import { UserComponent } from './components/user/user.component';
 import { TemplateFormComponent } from './components/template-form/template-form.component';
 import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
+import { CustomerComponent } from './customer/customer.component';
 
 export const routes: Routes = [
     {
@@ -36,5 +37,9 @@ export const routes: Routes = [
     {
         path:'Reactive-Form',
         component: ReactiveFormComponent
+    },
+    {
+        path:'customer',
+        component: CustomerComponent
     }
 ];
